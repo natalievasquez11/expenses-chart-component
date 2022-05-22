@@ -1,5 +1,32 @@
 .balance {
+  box-sizing: border-box;
   background-color: hsl(10, 79%, 65%);
   width: 40%;
-  height: 20%;
+  height: 10%;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  color: hsl(33, 100%, 98%);
+
+  &--text {
+    margin: 0px;
+  }
+
+  &--title {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  &--total {
+    font-size: 20px;
+    padding-top: 5px;
+  }
+
+  &--logo {
+    width: 54px;
+    height: 36px;
+    padding-right: 15px;
+  }
 }
