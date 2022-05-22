@@ -3,7 +3,7 @@ import './chart.scss';
 
 const Chart = () => {
   return (
-    <div>ChartDiv</div>
+    <div className='chart'>ChartDiv</div>
   );
 }
 
